@@ -2,6 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
+    
 <form action="/" method="post">
     <label for="fname">First name:</label><br>
     <input type="text" required/><br />
